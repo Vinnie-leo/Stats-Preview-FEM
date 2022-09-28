@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    color:white;
+    list-style:none;  
+}
+
+body{
+    background-color:hsl(233, 47%, 7%);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    padding:10rem;   
+}
+
+main{
+    display:flex;
+    background-color:hsl(244, 38%, 16%);    
+}
+
+.left-section{
+    padding:4rem 6rem;
+    display:flex;
+    flex-direction:column;
+    gap:3rem;
+    width:50%;   
+}
+
+.left-section h1{
+    font-size:2rem;
+    font-family:"inter";
+    font-weight:700;
+}
+
+.left-section span{
+    color:hsl(277, 64%, 61%);
+}
+
+.left-section p{
+    line-height:2rem;
+    font-size:1rem;
+    font-family:"inter";
+    font-weight:400;
+    color:hsla(0, 0%, 100%, 0.75);
+}
+
+.left-section .stats{
+    display:flex;
+    justify-content:space-between;
+    margin-top:4rem;    
+}
+
+.left-section ul{
+    display:flex;
+    flex-direction:column;
+    gap:.3rem;
+    flex:1;   
+}
+
+.left-section ul .number{
+    font-family:"inter";
+    font-weight:700;
+    font-size:1.4rem;   
+}
+
+.left-section ul .text{
+    font-family:"lexend deca";
+    font-weight:400;
+    font-size:.75rem;
+    color:hsla(0, 0%, 100%, 0.6);
+    letter-spacing: .1rem;
+}
+
+.right-section {
+    width:50%;
+    height:auto;
+    background-color:hsl(277, 64%, 61%);    
+}
+
+.right-section img{
+    height:100%;
+    width:100%;
+    opacity:60%;
+}
+
+
+
+
+
+
